@@ -1,0 +1,131 @@
+# =========================
+# ===== Flutter / Dart =====
+
+# Build outputs
+**/build/
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+
+# Plugin dependencies
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# iOS
+**/ios/Flutter/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/FlutterGenerated/
+**/ios/build/
+**/ios/Runner.xcworkspace/
+**/ios/xcuserdata/
+
+# macOS
+**/macos/Flutter/
+**/macos/build/
+**/macos/Runner.xcworkspace/
+**/macos/xcuserdata/
+
+# Android
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/build/
+
+# Windows
+**/windows/build/
+**/windows/flutter/ephemeral/
+
+# Linux
+**/linux/build/
+**/linux/flutter/ephemeral/
+
+# Web
+**/web/.dart_tool/
+**/web/build/
+
+# Plugin registrant
+**/lib/generated_plugin_registrant.dart
+
+# Flutter tool lock files
+**/pubspec.lock
+**/.metadata
+
+# Logs
+*.log
+
+# =========================
+# ===== FastAPI / Python =====
+
+# Bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.Python
+
+# Logs and local files
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing and coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+
+# Flask-specific
+instance/
+.webassets-cache
+
+# FastAPI generated files
+__pycache__/
+
+# Env files
+.env
+.env.*
+
+# SQLite and local DBs
+*.sqlite3
+
+# IDE files
+.idea/
+.vscode/
+*.code-workspace
+
+# =========================
+# ===== General OS Files =====
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# =========================
